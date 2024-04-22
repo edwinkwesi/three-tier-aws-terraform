@@ -1,7 +1,7 @@
 # FDM Public subnet
 
 resource "aws_subnet" "public-web-subnet-1-cidr" {
-    vpc_id          = "var.fdm_vpc.id"
+    vpc_id          = "var.fd-_vpc.id"
     cidr_block      = var.public-web-subnet-1-cidr
     availability_zone = "eu-west-2a"
     map_public_ip_on_launch = "true"
@@ -12,7 +12,7 @@ resource "aws_subnet" "public-web-subnet-1-cidr" {
 }
   
 resource "aws_subnet" "public-web-subnet-2-cidr" {
-    vpc_id          = "var.fdm_vpc.id"
+    vpc_id          = "var.fdm-vpc.id"
     cidr_block      = var.public-web-subnet-2-cidr
     availability_zone = "eu-west-2b"
     map_public_ip_on_launch = "true"

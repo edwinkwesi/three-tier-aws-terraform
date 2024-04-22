@@ -37,14 +37,14 @@ variable "private-app-subnet-2-cidr" {
   
 }
 
-variable "priave-db-subnet-1-cidr" {
+variable "private-db-subnet-1-cidr" {
     default = "10.0.5.0/24"
     description = "CIDR Block for FDM Private DB Tier1"
     type = string
 
 }
 
-variable "priave-db-subnet-2-cidr" {
+variable "private-db-subnet-2-cidr" {
     default = "10.0.6.0/24"
     description = "CIDR Block for FDM Private DB Tier2"
     type = string
