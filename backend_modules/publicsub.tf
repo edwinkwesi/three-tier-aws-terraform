@@ -1,7 +1,7 @@
 # FDM Public subnet
 
 resource "aws_subnet" "public-web-subnet-1-cidr" {
-    vpc_id          = "var.fd-_vpc.id"
+    vpc_id          = "var.fd-vpc.id"
     cidr_block      = var.public-web-subnet-1-cidr
     availability_zone = "eu-west-2a"
     map_public_ip_on_launch = "true"
